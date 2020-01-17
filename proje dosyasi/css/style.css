@@ -1,0 +1,256 @@
+nav {
+    background: #607D8B;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+}
+
+body {
+    background: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+nav .container ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav .container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav .container ul li {
+    float: left;
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+}
+
+nav .container ul li a {
+    padding: 30px;
+	padding-bottom: 10px;
+    padding-left: 0;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Acme', sans-serif;
+    font-size: 13px;
+}
+
+
+nav .container .social-icons {
+    float: right;
+}
+
+nav .container .social-icons {
+    float: right;
+    margin-right: -30px;
+}
+
+
+
+header .container .logo a {
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+header {
+    background: #4e6671;
+    height: 80px;
+}
+
+header .container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header .container .logo {
+    padding: 10px;
+    float: left;
+    padding-left: 4px;
+}
+
+header .container .login {
+    float: right;
+}
+
+header .container .login ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    background: #44555d;
+    margin-left: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid #000;
+}
+
+header .container .login ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+header .container .login ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+}
+
+
+.search {
+    background: #8BC34A;
+    padding: 9px;
+}
+
+.search .container {
+    margin: 0 auto;
+    width: 962px;
+    padding-left: 2px;
+}
+
+.search .container input[type="text"] {
+    background: #FFF;
+    border: 0;
+    padding: 11px;
+    width: 92.4%;
+    margin-right: 0px;
+}
+
+.search .container button {
+    padding: 11px;
+    border: 0;
+    background: #b8ff66;
+}
+
+.last-books {
+    width: 960px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px #CCC;
+    background: #f5f5f5;
+}
+
+.last-books h2 {
+    padding: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    box-shadow: 1px 2px 1px #CCC;
+    text-align: center;
+    color: #F44336;
+    margin-top: 10px;
+    background: #FFF;
+}
+
+
+.last-books .post img {
+    width: 100px;
+	height: 151px;
+}
+
+.last-books .post {
+    width: 100px;
+    margin: 6px;
+    float: left;
+    background: #FFF;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.last-books .post .post-title a {
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.last-books .post .post-title {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.page .kategoriler {
+    float: left;
+    background: #FFF;
+    padding: 10px;
+    width: 250px;
+}
+
+.page .kategoriler h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 17px;
+    padding: 11px;
+    margin: 0;
+    color: #009688;
+    background: #c5c5c5;
+}
+
+.page .kategoriler ul {
+    margin: 0;
+    padding: 0;
+    margin: -3px;
+    margin-top: 10px;
+}
+
+.page .kategoriler ul li {
+    float: left;
+    width: 40%;
+    margin-left: 3px;
+    margin-right: 2px;
+    padding: 10px;
+    background: #ccc;
+    list-style: none;
+}
+
+.page .kategoriler ul li a {
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.single-page {
+    width: 940px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #dcdcdc;
+    margin-top: 10px;
+}
+
+.single-page h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    color: #E91E63;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+}
+
+.single-page p {
+    font-family: 'Bree Serif', serif;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+
+.single-page a {
+    color: #009688;
+    text-decoration: none;
+}
